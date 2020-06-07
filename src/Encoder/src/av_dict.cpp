@@ -18,6 +18,7 @@
 #include "CamEncoder/av_dict.h"
 #include "CamEncoder/av_ffmpeg.h"
 #include <cassert>
+#include <stdexcept>
 
 av_dict & av_dict::operator=(const av_dict &dict)
 {
